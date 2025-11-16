@@ -7,7 +7,7 @@ import busio                      # Für I2C-Kommunikation
 import time                       # Für Pausen und Zeitsteuerung
 import usb_hid                    # Um HID-Geräte (z.B. Tastatur) zu emulieren
 import digitalio                  # Für digitale Ein- und Ausgänge
-import adafruit_ssd1306          # OLED-Display-Bibliothek
+import adafruit_ssd1306           # OLED-Display-Bibliothek
 
 from adafruit_hid.keyboard import Keyboard
 
